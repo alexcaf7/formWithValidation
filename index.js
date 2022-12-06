@@ -54,7 +54,7 @@ function checkInputs() {
     // adicionar a classe error
     errorValidation(passwordtwo, 'Prencha esse campo')
   }
-  else if (passwordValue != passwordValue) {
+  else if (passwordtwoValue != passwordValue) {
     errorValidation(passwordtwo, 'As senhas devem ser iguais')
   }
   else {
